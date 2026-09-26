@@ -1,0 +1,74 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Linktree Section
+--------------------------------------------------------------*/
+.linktree {
+  .linktree-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .linktree-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .linktree-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+    color: var(--default-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease;
+
+    i {
+      font-size: 22px;
+      color: var(--accent-color);
+    }
+
+    &:hover {
+      background-color: var(--accent-color);
+      color: var(--contrast-color);
+      transform: translateY(-2px);
+
+      i {
+        color: var(--contrast-color);
+      }
+    }
+  }
+
+  .ad-widget {
+    background-color: var(--surface-color);
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    min-height: 400px;
+  }
+
+  .ad-widget-title {
+    color: var(--heading-color);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+
+  @media (max-width: 992px) {
+    .ad-widget {
+      display: none;
+    }
+  }
+}
