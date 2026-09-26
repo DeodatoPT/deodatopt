@@ -1780,9 +1780,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Linktree 3 Section
+# Section Temporadas Section
 --------------------------------------------------------------*/
-.linktree-3 .linktree-layout {
+.section_temporadas .linktree-layout {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -1790,7 +1790,7 @@ section,
   flex-wrap: wrap;
 }
 
-.linktree-3 .linktree-list {
+.section_temporadas .linktree-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1798,7 +1798,7 @@ section,
   max-width: 480px;
 }
 
-.linktree-3 .linktree-btn {
+.section_temporadas .linktree-btn {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -1813,22 +1813,22 @@ section,
   transition: all 0.3s ease;
 }
 
-.linktree-3 .linktree-btn i {
+.section_temporadas .linktree-btn i {
   font-size: 22px;
   color: var(--accent-color);
 }
 
-.linktree-3 .linktree-btn:hover {
+.section_temporadas .linktree-btn:hover {
   background-color: var(--accent-color);
   color: var(--contrast-color);
   transform: translateY(-2px);
 }
 
-.linktree-3 .linktree-btn:hover i {
+.section_temporadas .linktree-btn:hover i {
   color: var(--contrast-color);
 }
 
-.linktree-3 .ad-widget {
+.section_temporadas .ad-widget {
   background-color: var(--surface-color);
   padding: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -1837,7 +1837,7 @@ section,
   min-height: 400px;
 }
 
-.linktree-3 .ad-widget-title {
+.section_temporadas .ad-widget-title {
   color: var(--heading-color);
   font-size: 18px;
   font-weight: 700;
@@ -1846,20 +1846,20 @@ section,
 }
 
 @media (max-width: 992px) {
-  .linktree-3 .ad-widget {
+  .section_temporadas .ad-widget {
     display: none;
   }
 }
 
 /*--------------------------------------------------------------
-# Linktree 4 Section
+# Section Temporada 01 Section
 --------------------------------------------------------------*/
-.linktree-4 {
+.section_temporada_01 {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.linktree-4 .linktree-layout {
+.section_temporada_01 .linktree-layout {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -1867,7 +1867,7 @@ section,
   flex-wrap: wrap;
 }
 
-.linktree-4 .linktree-list {
+.section_temporada_01 .linktree-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1875,7 +1875,7 @@ section,
   max-width: 480px;
 }
 
-.linktree-4 .linktree-btn {
+.section_temporada_01 .linktree-btn {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -1890,22 +1890,22 @@ section,
   transition: all 0.3s ease;
 }
 
-.linktree-4 .linktree-btn i {
+.section_temporada_01 .linktree-btn i {
   font-size: 22px;
   color: var(--accent-color);
 }
 
-.linktree-4 .linktree-btn:hover {
+.section_temporada_01 .linktree-btn:hover {
   background-color: var(--accent-color);
   color: var(--contrast-color);
   transform: translateY(-2px);
 }
 
-.linktree-4 .linktree-btn:hover i {
+.section_temporada_01 .linktree-btn:hover i {
   color: var(--contrast-color);
 }
 
-.linktree-4 .ad-widget {
+.section_temporada_01 .ad-widget {
   background-color: var(--surface-color);
   padding: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -1914,7 +1914,7 @@ section,
   min-height: 400px;
 }
 
-.linktree-4 .ad-widget-title {
+.section_temporada_01 .ad-widget-title {
   color: var(--heading-color);
   font-size: 18px;
   font-weight: 700;
@@ -1923,7 +1923,7 @@ section,
 }
 
 @media (max-width: 992px) {
-  .linktree-4 .ad-widget {
+  .section_temporada_01 .ad-widget {
     display: none;
   }
 }
@@ -2140,6 +2140,78 @@ section,
   .apoios .portfolio-bottom .col-lg-4 {
     text-align: center !important;
     margin-top: 20px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Linktree 2 Section
+--------------------------------------------------------------*/
+.linktree-2 .linktree-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.linktree-2 .linktree-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.linktree-2 .linktree-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 24px;
+  border-radius: 12px;
+  background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  color: var(--default-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.linktree-2 .linktree-btn i {
+  font-size: 22px;
+  color: var(--accent-color);
+}
+
+.linktree-2 .linktree-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  transform: translateY(-2px);
+}
+
+.linktree-2 .linktree-btn:hover i {
+  color: var(--contrast-color);
+}
+
+.linktree-2 .ad-widget {
+  background-color: var(--surface-color);
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  min-height: 400px;
+}
+
+.linktree-2 .ad-widget-title {
+  color: var(--heading-color);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 992px) {
+  .linktree-2 .ad-widget {
+    display: none;
   }
 }
 
